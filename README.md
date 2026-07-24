@@ -201,18 +201,64 @@ F --> I
 
 ---
 
-# 🚀 Innovation
-
-Unlike conventional fitness bands, our system:
-
-- Predicts injuries before they occur
-- Detects dangerous workout posture
-- Detects unconscious falls
-- Performs Edge AI processing
-- Sends real-time cloud updates
-- Provides localized trainer alerts
-
 ---
+
+# 🧠 Novel Innovation
+
+Unlike traditional fitness wearables that rely on static algorithms, our system introduces a **Federated Edge-Learning Framework** that continuously improves injury-risk prediction while preserving athlete privacy.
+
+### 🚀 Key Innovation
+
+- 🧠 Personalized AI models are trained directly on the **ESP32 Edge Device** using each athlete's historical workout patterns.
+- 🔒 Sensitive physiological data **never leaves the wearable**, ensuring complete user privacy.
+- ☁️ Only lightweight **model updates** are securely synchronized with the cloud instead of raw sensor data.
+- ⚡ The prediction model continuously adapts to an athlete's lifting style, body movement, fatigue levels, and cardiovascular response over time.
+- 📊 Enables highly personalized injury-risk prediction without centralized data collection.
+- 🌍 Multiple devices collaboratively improve the global model through **Federated Learning**, making the system smarter with every workout while maintaining data confidentiality.
+
+> **Innovation Statement**
+>
+> *"A Federated Edge-Learning framework that continuously personalizes injury-risk prediction models on the ESP32 using each athlete's historical workout patterns while preserving privacy by synchronizing only encrypted model updates to the cloud."*
+
+### 🔄 Federated Learning Workflow
+
+```mermaid
+flowchart LR
+
+A[Athlete Workout]
+
+B[ESP32 Edge Device]
+
+C[Local AI Training]
+
+D[Updated Model Weights]
+
+E[Secure Cloud Aggregation]
+
+F[Global AI Model]
+
+G[Improved Personalized Model]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> B
+```
+
+### 🌟 Why It Matters
+
+| Traditional Wearables | Our Federated Edge AI |
+|-----------------------|-----------------------|
+| Static prediction models | Continuously learning models |
+| Sends raw user data | Sends only model updates |
+| Privacy concerns | Privacy-preserving architecture |
+| Same model for every athlete | Personalized model for every athlete |
+| Limited adaptation | Learns from historical workout behavior |
+| Cloud-dependent intelligence | Edge intelligence with cloud collaboration |
+
 
 # 📈 Future Scope
 
