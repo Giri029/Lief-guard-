@@ -266,3 +266,18 @@ Sathyabama Institute of Science and Technology
 🟢 Ready for Demonstration
 
 ---
+# ❤️ Vision
+
+> **"Every lift should be stronger—not riskier."**
+
+Our mission is to redefine workout safety using **AI**, **IoT**, and **Edge Computing**, ensuring athletes train smarter, safer, and stronger.
+
+---
+
+<div align="center">
+
+### ⭐ If you like our project, give it a Star ⭐
+
+Made with ❤️ by **Team MERCX**
+
+</div>
