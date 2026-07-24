@@ -226,7 +226,7 @@ Unlike conventional fitness bands, our system:
 
 ---
 
-# 👥 Team MERCX
+# 👥 Team MercX
 
 | Name | Role |
 |------|------|
