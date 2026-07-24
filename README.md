@@ -1,57 +1,268 @@
-# 🚀 RUSHOUR 2026 - National Engineering Hackathon
+<div align="center">
 
-> **24-Hour National Engineering Challenge**
->
-> **Theme:** Innovate • Build • Solve • Impact
+# 🏋️‍♂️ AI-Powered Workout Intensity & Injury Risk Predictor
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3500&pause=1000&color=7B2FF7&center=true&vCenter=true&width=900&lines=National+Hackathon+Project;AI+Workout+Safety+Monitoring;Predictive+Injury+Risk+Detection;Real-Time+Edge+Computing+using+ESP32;IoT+Enabled+Fitness+Safety+Ecosystem" />
 
-## 🛡️ LiefGuard IoT: Intelligent Fatigue Prevention & Adaptive Recovery System
-
-### 👥 Team Members
-1) Giri G (team leader)
-2) Athish RK
-3) K Mohit Sai
-4) Johen Giovannii
-5) Dhashvanth V
-6) Praveen kumar S
-
-> **A closed-loop IoT & Cloud ecosystem bridging real-time biomechanical strain monitoring with automated nutritional recovery.**
+![GitHub stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D?style=for-the-badge&logo=arduino)
+![ESP32](https://img.shields.io/badge/ESP32-IoT-red?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Edge%20Analytics-blueviolet?style=for-the-badge)
 
 ---
 
-## 📌 Project Overview
+### 🚀 RushHour 2026 National Hackathon Project
 
-**LiefGuard IoT** is a smart, cloud-connected fitness and safety ecosystem designed to protect strength athletes from overtraining, central nervous system (CNS) burnout, and catastrophic biomechanical injury (ego lifting). By combining real-time hardware motion tracking on the gym floor with an automated, frictionless nutrition logger, LiefGuard ensures that training intensity is constantly balanced with adequate physical recovery.
+*"Preventing injuries before they happen through Intelligent Edge AI."*
 
----
-
-## 🚨 Problem Statement
-
-In resistance training and high-intensity weightlifting, athletes face three critical failure points that traditional wearables and apps completely ignore:
-
-1. **Biomechanical Strain & Ego Lifting Risks:** Existing smartwatches only track passive metrics like daily step counts and basic pulse. They fail to measure explosive lifting velocity, angular instability, or form breakdown. Pushing through severe fatigue leads to muscle tears and joint failure.
-2. **The "Muscle vs. Tendon" Recovery Gap:** While muscles adapt rapidly to heavy loads, tendons and ligaments adapt much slower. Athletes using high-stimulant pre-workouts often lose pain feedback, pushing heavy loads that exceed tendon tensile limits.
-3. **High-Friction Nutrition Tracking:** Manual calorie/macro tracking apps require tedious text entry, leading over 70% of athletes to abandon diet tracking altogether. Without accurate nutrition, cellular repair fails.
+</div>
 
 ---
 
-## 💡 Our Solution
+# 📌 About The Project
 
-LiefGuard connects the gym floor directly to the kitchen through a two-node closed-loop architecture:
+Modern fitness wearables primarily count **steps**, **calories**, and **heart rate**, but they fail to detect **real-time injury risks** during intense workouts.
 
-### 1. The Hardware Edge Node (Wearable / Desk Hub)
-* **ESP32 Microcontroller:** The central processor handling local edge computations and cloud wireless streaming.
-* **MPU6050 Accelerometer & Gyroscope:** Tracks real-time lifting acceleration, movement symmetry, and velocity loss to catch form breakdown mid-rep.
-* **MAX30102 Heart Rate Sensor:** Measures cardiovascular strain and pulse wave density to compute real-time exertion.
-* **Local Safety Warnings:** An onboard **OLED display** shows immediate exertion states (`OPTIMAL` vs `OVERTRAINED`), while an active **Piezo Buzzer** sounds an instant auditory warning when form breaks down or safe acceleration thresholds are breached.
-* **RFID Module (RC522):** Enables tap-to-log frictionless meal logging right from the device.
+Our solution is an **IoT-enabled Edge Safety Ecosystem** powered by an **ESP32**, capable of monitoring an athlete's body movement, cardiovascular status, and emergency conditions in real time.
 
-### 2. The Cloud & Web Ecosystem
-* **Firebase Realtime Database:** Low-latency cloud synchronization streaming sensor packets from the hardware directly to the cloud dashboard.
-* **Adaptive Nutrition Algorithm:** Dynamically scales target macronutrient and calorie goals based on live daily training intensity (e.g., automatically adjusting targets on heavy leg days).
-* **Interactive Dashboard:** A modern web interface displaying real-time fatigue gauges, target completion bars, and workout logs.
+The system continuously analyzes motion and physiological data to predict dangerous workout situations before they become severe injuries.
 
 ---
 
-## 🏗️ System Architecture & Workflow
+# ❗ Problem Statement
+
+> **In high-intensity weightlifting and athletic training, existing fitness wearables fail to detect real-time acute biomechanical injury risks, cardiovascular redlines, and post-fall unconsciousness—leading to unmonitored athletic collapse and delayed emergency response.**
+
+## Key Challenges
+
+🔴 **Biomechanical Failure Detection**
+
+- Cannot identify dangerous body sway
+- Cannot detect poor lifting posture
+- Unable to recognize excessive G-force or sudden jerks
+
+🔴 **Cardiovascular Risk**
+
+- Heart rate updates are too slow
+- No instant warning during intense lifting
+- Cannot detect dangerous cardiovascular strain
+
+🔴 **Emergency Response**
+
+- No automatic localized emergency alert
+- False alarms waste critical time
+- No trainer-level override mechanism
+
+---
+
+# 💡 Our Solution
+
+An **IoT Enabled Edge Safety Ecosystem** built around the **ESP32** that combines:
+
+- 📈 Real-Time Heart Rate Monitoring
+- 🏃 Motion Tracking
+- ⚡ Injury Risk Prediction
+- 🚨 Emergency Fall Detection
+- 📡 Live Cloud Monitoring
+- 📱 Web Dashboard
+- 🔔 Instant Visual & Audio Alerts
+- 🪪 RFID Authentication
+- 🤖 AI-based Workout Analysis
+
+---
+
+# ✨ Features
+
+✅ Live Heart Rate Monitoring
+
+✅ Workout Intensity Tracking
+
+✅ Injury Risk Prediction
+
+✅ Dangerous Body Movement Detection
+
+✅ Fall Detection
+
+✅ Automatic Emergency Alert
+
+✅ RFID User Authentication
+
+✅ OLED Live Display
+
+✅ ESP32 WiFi Cloud Upload
+
+✅ Real-Time Dashboard
+
+---
+
+# 🛠 Hardware Used
+
+| Component | Purpose |
+|------------|----------|
+| ESP32 | Main Controller |
+| MAX30102 | Heart Rate & SpO2 Sensor |
+| MPU6050 | Motion & Fall Detection |
+| MFRC522 | RFID Authentication |
+| OLED Display | Live Status Display |
+| Buzzer | Emergency Alert |
+| LEDs | Warning Indicators |
+
+---
+
+# 💻 Software Stack
+
+- Arduino IDE
+- ESP32 Framework
+- HTML
+- CSS
+- JavaScript
+- Firebase / Local Web Server
+- GitHub
+
+---
+
+# ⚙ System Workflow
+
+```text
+Athlete
+   │
+   ▼
+RFID Authentication
+   │
+   ▼
+Workout Starts
+   │
+   ▼
+ESP32 Reads Sensors
+   │
+   ├── MAX30102
+   ├── MPU6050
+   │
+   ▼
+Edge Processing
+   │
+   ▼
+Risk Analysis
+   │
+   ├── Safe
+   ├── Warning
+   └── Emergency
+   │
+   ▼
+OLED + LED + Buzzer Alerts
+   │
+   ▼
+Cloud Dashboard
+```
+
+---
+
+# 🧠 System Architecture
+
+```mermaid
+flowchart LR
+
+A[Athlete]
+
+B[RFID Login]
+
+C[ESP32]
+
+D[MAX30102]
+
+E[MPU6050]
+
+F[Edge AI Analysis]
+
+G[OLED Display]
+
+H[Emergency Alerts]
+
+I[Cloud Dashboard]
+
+A --> B
+
+B --> C
+
+D --> C
+
+E --> C
+
+C --> F
+
+F --> G
+
+F --> H
+
+F --> I
+```
+
+---
+
+# 🚀 Innovation
+
+Unlike conventional fitness bands, our system:
+
+- Predicts injuries before they occur
+- Detects dangerous workout posture
+- Detects unconscious falls
+- Performs Edge AI processing
+- Sends real-time cloud updates
+- Provides localized trainer alerts
+
+---
+
+# 📈 Future Scope
+
+- AI Personal Trainer
+- Automatic Workout Recommendations
+- ECG Integration
+- Smartwatch Version
+- Mobile App
+- Machine Learning Based Risk Prediction
+- Hospital Emergency Integration
+
+---
+
+# 👥 Team MERCX
+
+| Name | Role |
+|------|------|
+| G. Giri | Team Leader |
+| R.K.athish | Developer |
+| Mohith Sai K | Developer |
+| V. Dhashvanth | Developer |
+| N. Johen Giovanni | Developer |
+| B. Praveen Kumar | Developer |
+
+---
+
+# 🏆 Hackathon Details
+
+**Event**
+
+RushHour 2026 National Engineering Challenge
+
+**Institution**
+
+Meenakshi Sundararajan Engineering College
+
+**Venue**
+
+Sathyabama Institute of Science and Technology
+
+---
+
+# 📊 Project Status
+
+🟢 Prototype Completed
+
+🟢 Hardware Integrated
+
+🟢 Cloud Dashboard Connected
+
+🟢 Ready for Demonstration
+
+---
